@@ -1,0 +1,13 @@
+
+@root= http://localhost:8000
+@user= {{root}}/api/mysql
+###
+GET {{root}}
+###
+POST {{user}}
+Content-Type: application/json
+
+{
+    "name":"NAD",
+    "age":2
+}
