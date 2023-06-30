@@ -8,6 +8,8 @@ POST {{user}}
 Content-Type: application/json
 
 {
-    "name":"NAD",
+    "name":"Robsin",
     "age":2
 }
+###
+GET {{user}}

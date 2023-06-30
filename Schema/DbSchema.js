@@ -18,3 +18,13 @@ export const inputData = (name, age) => {
     console.log(err.message);
   }
 };
+
+export const getData = () => {
+  try {
+    const rows = dbSchema.query("select * from user");
+
+    return rows;
+  } catch (error) {
+    console.log(error.message);
+  }
+};
